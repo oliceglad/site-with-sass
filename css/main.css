@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter";
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+input {
+  border: 0;
+  background-color: transparent;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+p, h1, h2, h3 {
+  margin: 0;
+}
+
+:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding-left: 355px;
+  padding-right: 355px;
+  margin: 0 auto;
+}
+
+/* header */
+.background {
+  background-image: url("..//img/background.jpg");
+}
+
+.header {
+  padding-top: 23px;
+  margin-bottom: 96px;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__info__link {
+  padding: 15px 59.5px 15px 59.5px;
+  transition: all 0.3s ease-in-out;
+}
+.header__info__link:nth-child(1) {
+  display: inline-block;
+  color: white;
+  background-color: transparent;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  margin-right: 17px;
+  border: 1px solid white;
+}
+.header__info__link:nth-child(1):hover {
+  background-color: white;
+  color: black;
+}
+.header__info__link:nth-child(1):focus-visible {
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+}
+.header__info__link:nth-child(2) {
+  display: inline-block;
+  color: white;
+  background-color: #593DE4;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  border: 1px solid #593DE4;
+}
+.header__info__link:nth-child(2):hover {
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+}
+.header__info__link:nth-child(2):focus-visible {
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+}
+.header__info__link:active {
+  opacity: 0.9;
+}
+
+/*# sourceMappingURL=main.css.map */
