@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import 'mixin';
+@import 'variables';
+@import "default";
+
+/* header */
+
+.background {
+    background-image: url('..//img/background.jpg');
+}
+
+.header {
+    padding-top: 23px;
+    margin-bottom: 96px;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center
+    }
+
+    &__info__link {
+        padding: 15px 59.5px 15px 59.5px;
+        transition: all .3s ease-in-out;
+
+        &:nth-child(1) {
+            @include button(transparent,16px);
+            margin-right: 17px;
+            border: 1px solid white;
+            &:hover {
+                background-color: white;
+                color: black;
+            }
+            &:focus-visible {
+                background-color: white;
+                color: black;
+                border: 1px solid white;
+            }
+        }
+
+        &:nth-child(2) {
+            @include button($main-color,16px);
+            border: 1px solid $main-color;
+            &:hover {
+                background-color: white;
+                color: black;
+                border: 1px solid white;
+            }
+            &:focus-visible {
+                background-color: white;
+                color: black;
+                border: 1px solid white;
+            }
+        }
+
+        &:active {
+            opacity: .9;
+        }
+
+    }
+}

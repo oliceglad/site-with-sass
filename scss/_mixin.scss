@@ -1,0 +1,16 @@
+@mixin button($bc,$fz) {
+    display: inline-block;
+    color: white;
+    background-color: $bc;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: $fz;
+}
+
+@mixin footer-title() {
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}

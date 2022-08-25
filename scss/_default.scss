@@ -1,0 +1,50 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter';
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+input {
+  border: 0;
+  background-color: transparent;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+p, h1,h2,h3 {
+  margin: 0;
+}
+
+:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding-left: 355px;
+  padding-right: 355px;
+  margin: 0 auto;
+}
